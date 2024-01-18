@@ -134,9 +134,16 @@ ul {
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 150px 520px;
 }
 
 .quote {
     color: #1f2937;
     font: 36px 'Roboto Light Italic';
+}
+
+.attribution {
+    font: 20px 'Roboto Black';
+    margin-right: 50px;
+    text-align: right;
 }
