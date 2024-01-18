@@ -22,7 +22,7 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 400px;
+    padding: 15px 450px;
 }
 
 .header-links {
@@ -50,8 +50,8 @@ ul {
 
 .hero {
     display: flex;
-    gap: 50px;
-    padding: 250px 400px;
+    gap: 45px;
+    padding: 150px 450px;
 }
 
 .hero > * {
@@ -72,7 +72,7 @@ ul {
     border-radius: 5px;
     color: #F9FAF8;
     font-weight: bolder;
-    padding: 5px 25px;
+    padding: 10px 40px;
 }
 
 .hero-img {
