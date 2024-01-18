@@ -3,6 +3,16 @@
     src: url(RobotoRegular-3m4L.ttf);
 }
 
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(RobotoBlack-Powx.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Light Italic';
+    src: url(RobotoLightItalic-E9nn.ttf);
+}
+
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -31,7 +41,7 @@ ul {
 }
 
 .logo {
-    font-size: 24px;
+    font: 24px 'Roboto Black';
     font-weight: bold;
 }
 
@@ -59,7 +69,7 @@ ul {
 }
 
 .hero-main {
-    font-size: 48px;
+    font: 48px 'Roboto Black';
 }
 
 .hero-secondary {
@@ -93,7 +103,7 @@ ul {
 
 .info-header {
     color: #1f2937;
-    font-size: 36px;
+    font: 36px 'Roboto Black';
     font-weight: bolder;
     padding-bottom: 50px;
 }
@@ -120,4 +130,13 @@ ul {
 .info-text {
     color: #54595f;
     font-size: 18px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font: 36px 'Roboto Light Italic';
 }
