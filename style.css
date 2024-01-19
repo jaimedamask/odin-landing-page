@@ -155,11 +155,19 @@ ul {
     color: #F9FAF8;
     display: flex;
     gap: 125px;
-    margin: 100px;
+    margin: 125px;
     padding: 50px 125px;
 }
 
 button.call {
     border: 2px solid #F9FAF8;
     box-sizing: border-box;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 40px 0;
+    text-align: center;
 }
