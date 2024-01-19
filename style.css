@@ -73,7 +73,7 @@ ul {
 }
 
 .hero-secondary {
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 .signup-btn {
@@ -81,8 +81,8 @@ ul {
     border: none;
     border-radius: 5px;
     color: #F9FAF8;
-    font-weight: bolder;
-    padding: 10px 40px;
+    font: 16px 'Roboto Black';
+    padding: 5px 35px;
 }
 
 .hero-img {
@@ -146,4 +146,20 @@ ul {
     font: 20px 'Roboto Black';
     margin-right: 50px;
     text-align: right;
+}
+
+.call-to-action {
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: #F9FAF8;
+    display: flex;
+    gap: 125px;
+    margin: 100px;
+    padding: 50px 125px;
+}
+
+button.call {
+    border: 2px solid #F9FAF8;
+    box-sizing: border-box;
 }
